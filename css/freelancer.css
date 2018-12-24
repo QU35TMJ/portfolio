@@ -382,7 +382,7 @@ a:focus, a:hover, a:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
- {box-sizing:border-box}
+ *{box-sizing:border-box}
 
 /* Container for skill bars */
 .container {
@@ -401,3 +401,6 @@ a:focus, a:hover, a:active {
 .js {width: 65%; background-color: #f44336;} /* Red */
 .php {width: 60%; background-color: #808080;} /* Dark Grey */
 .ps {width: 60%; background-color: #FF0000;} /* redish */
+
+
+
